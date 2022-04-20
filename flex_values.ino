@@ -1,6 +1,6 @@
 #include <LiquidCrystal.h>
 
-#include "FlexLibrary.h"
+
 
 const int flexPin = "A0";
 
