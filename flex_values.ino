@@ -14,12 +14,12 @@ void setup()
   Serial.begin(9600);
   pinMode(flexPin,INPUT);
   analogWrite(6,contrast);
-  Serial.println("Spine alignment Detector");
+  Serial.println("Flex sensor values");
   lcd.begin(16,2);
   lcd.setCursor(0,0);
-  lcd.print("Spine Alignment");
+  lcd.print("Flex sensor");
   lcd.setCursor(0,1);
-  lcd.print("Detector");
+  lcd.print("values");
   delay(3000);
   lcd.clear();
 
